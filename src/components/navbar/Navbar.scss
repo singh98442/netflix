@@ -1,0 +1,45 @@
+.left span {
+    margin: 0rem 1rem;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+    align-items: center;
+
+}
+
+.right span {
+    margin: 0 0.3rem;
+}
+
+.left {
+    align-items: center;
+    justify-content: center;
+}
+
+.right {
+    align-items: center;
+    justify-content: center;
+}
+
+.arro {
+    position: relative;
+    margin-right: 2rem;
+
+    .sub-arro {
+        display: none;
+
+    }
+    &:hover{
+        .sub-arro {
+            display: flex;
+            position: absolute;
+            line-height: 2rem;
+            cursor: pointer;
+            text-transform: capitalize;
+            border-radius: 10px;
+           
+        }
+
+    }
+}
+
